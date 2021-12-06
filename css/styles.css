@@ -1,0 +1,22 @@
+body {
+  background-color: #87cefa;
+}
+
+hr {
+  padding-bottom: 50px;
+  border-style: none;
+  border-bottom-style: dotted;
+  border-color: grey;
+  border-width: 6px;
+  width: 3%
+}
+
+h1 {
+  color: red;
+
+}
+
+h2 {
+  color: red;
+  font-family: Georgia, serif;
+}
