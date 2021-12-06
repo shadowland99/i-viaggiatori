@@ -1,5 +1,5 @@
 body {
-  background-color: #87cefa;
+  background-color: #D1E8E4;
 }
 
 hr {
@@ -12,12 +12,11 @@ hr {
 }
 
 h1 {
-  color: red;
-  font-family: Arial, Helvetica, sans-serif;
-
+  color: #C37B89;
+  font-family: Palatino, URW Bookman L, serif;
 }
 
 h2 {
-  color: red;
+  color: #C37B89;
   font-family: Palatino, URW Bookman L, serif;
 }
