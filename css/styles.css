@@ -5,7 +5,7 @@ body {
 hr {
   padding-bottom: 50px;
   border-style: none;
-  border-bottom-style: dotted;
+  border-bottom-style: groove;
   border-color: grey;
   border-width: 6px;
   width: 3%
