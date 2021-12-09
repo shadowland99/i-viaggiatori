@@ -14,11 +14,21 @@ hr {
 h1 {
   color: #C37B89;
   font-family: cursive;
-  font-weight: bold;
   font-size: 70px;
 }
 
 h2 {
   color: #C37B89;
-  font-family: Helvetica, sans-serif;;
+  font-family: cursive;
+  font-size: 30px;
+}
+
+h3 {
+  font-family: garamond, serif;
+  font-weight: normal;
+
+}
+
+h3:hover {
+  background-color: yellow;
 }
