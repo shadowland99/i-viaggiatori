@@ -1,6 +1,7 @@
 body {
-  background-color: #D1E8E4;
+  background-color: #E1E5EA;
 }
+
 
 hr {
   padding-bottom: 50px;
@@ -11,11 +12,13 @@ hr {
   width: 10%
 }
 
+
 h1 {
   color: #C37B89;
   font-family: cursive;
   font-size: 70px;
 }
+
 
 h2 {
   color: #C37B89;
@@ -23,10 +26,10 @@ h2 {
   font-size: 30px;
 }
 
+
 h3 {
   font-family: garamond, serif;
   font-weight: normal;
-
 }
 
 
@@ -34,4 +37,32 @@ h3 {
    margin-top: 50px;
  }
 
- 
+
+.text-block {
+  position: absolute;
+  font-size: 180%;
+  top: 25px;
+  right: 88%;
+  background-color: lightgrey;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  opacity: 0.7;
+}
+
+
+/*
+.test {
+  position: absolute;
+  background-color: black;
+  color: white;
+  border: 2px solid red;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+*/
+
+
+.bologna img {
+   max-width: 100%;
+}
