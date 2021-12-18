@@ -1,11 +1,12 @@
 body {
   background-color: #E1E5EA;
+
 }
 
 
 hr {
   padding-bottom: 50px;
-  border-style: none;
+  border-style: hidden;
   border-bottom-style: dotted;
   border-color: grey;
   border-width: 6px;
@@ -17,6 +18,7 @@ h1 {
   color: #C37B89;
   font-family: cursive;
   font-size: 70px;
+  margin-bottom: 1px;
 }
 
 
@@ -28,7 +30,7 @@ h2 {
 
 
 h3 {
-  font-family: garamond, serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: normal;
 }
 
@@ -41,28 +43,65 @@ h3 {
 .text-block {
   position: absolute;
   font-size: 180%;
-  top: 34px;
-  right: 86%;
+  top: 25px;
+  left: 121px;
   background-color: lightgrey;
   color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  opacity: 0.7;
+
+}
+
+
+.test {
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  background-color: black;
+  color: white;
+  border: 2px solid red;
   padding-left: 20px;
   padding-right: 20px;
   opacity: 0.7;
 }
 
 
-/*
-.test {
-  position: absolute;
-  background-color: black;
-  color: white;
-  border: 2px solid red;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-*/
-
-
 .bologna img {
    max-width: 100%;
+
+}
+
+.about-us-div {
+   margin-top: 60px;
+}
+
+.about-us-text {
+   position: relative;
+   top: 5px;
+   padding-left: 70px;
+   padding-right: 70px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: normal;
+   font-size: 110%;
+}
+
+.contact-me {
+   position: relative;
+   text-align: center;
+}
+
+.form {
+   position: relative;
+   text-align: center;
+
+}
+
+.hr-contact-me {
+   position: relative;
+   padding-bottom: 70px;
+}
+
+.contact-div {
+  margin-top: 50px;
 }
