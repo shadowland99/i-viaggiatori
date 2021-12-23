@@ -1,6 +1,5 @@
 body {
   background-color: #E1E5EA;
-
 }
 
 
@@ -29,31 +28,118 @@ h2 {
 }
 
 
-h3 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: normal;
+h3, h4 {
+  font-family: 'EB Garamond', serif;
 }
 
+a {
+  text-decoration: none;
+}
 
- .profile {
+.profile {
    margin-top: 50px;
  }
 
+.initial-dest {
+  position: relative;
+  margin-top: 100px;
+}
 
-.text-block {
+/* ---------Italy div---------- */
+.italy-parent {
+   position: relative;
+}
+
+.italy-parent img {
+   max-width: 100%;
+}
+
+.italy-text-block {
   position: absolute;
   font-size: 180%;
   top: 25px;
-  left: 121px;
+  right: 20px;
   background-color: lightgrey;
   color: black;
   padding-left: 20px;
   padding-right: 20px;
   opacity: 0.7;
-
+  border: 2px solid black;
 }
 
 
+/* ----------Germany div---------- */
+.germany-parent {
+   position: relative;
+}
+
+.germany-parent img {
+   max-width: 100%;
+}
+
+.germany-text-block {
+  position: absolute;
+  font-size: 180%;
+  top: 25px;
+  right: 20px;
+  background-color: lightgrey;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  opacity: 0.7;
+  border: 2px solid black;
+}
+
+
+/* ---------Austria div--------- */
+.austria-parent {
+   position: relative;
+}
+
+.austria-parent img {
+   max-width: 100%;
+}
+
+.austria-text-block {
+  position: absolute;
+  font-size: 180%;
+  top: 25px;
+  right: 20px;
+  background-color: lightgrey;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  opacity: 0.7;
+  border: 2px solid black;
+}
+
+
+/* -----------Czech div---------- */
+.czech-parent {
+   position: relative;
+}
+
+.czech-parent img {
+   max-width: 100%;
+}
+
+.czech-text-block {
+  position: absolute;
+  font-size: 180%;
+  top: 25px;
+  right: 20px;
+  background-color: lightgrey;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  opacity: 0.7;
+  border: 2px solid black;
+}
+
+
+
+
+/*
 .test {
   position: absolute;
   top: 25px;
@@ -65,17 +151,76 @@ h3 {
   padding-right: 20px;
   opacity: 0.7;
 }
+*/
 
 
-.bologna img {
+/* ------------italy.html------------ */
+.italy-guide-parent {
+   position: relative;
+}
+
+.italy-guide-parent img {
    max-width: 100%;
-
 }
 
-.about-us-div {
-   margin-top: 60px;
+
+.italy-heading {
+   position: relative;
+   margin-top: 120px;
+   text-align: center;
+   font-size: 35px;
 }
 
+.italy-textarea {
+   text-align: center;
+   font-size: 23px;
+   margin-left: 70px;
+   margin-right: 70px;
+}
+
+.milano-parent {
+   position: relative;
+}
+
+.milano-parent img {
+   max-width: 100%;
+   margin-top: 120px;
+}
+
+.milano-heading {
+   position: relative;
+   margin-top: 120px;
+   margin-left: 70px;
+
+   font-size: 35px;
+}
+
+.milano-textarea {
+   position: absolute;
+   margin-top: 20px;
+   margin-left: 70px;
+   font-size: 23px;
+   margin-left: 70px;
+   margin-right: 70px;
+}
+
+/*
+.coliseum-text-block {
+  position: absolute;
+  font-size: 180%;
+  top: 25px;
+  left: 20px;
+  background-color: lightgrey;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  opacity: 0.7;
+  border: 2px solid black;
+}
+*/
+
+
+/* ------------about us----------- */
 .about-us-text {
    position: relative;
    top: 5px;
@@ -86,22 +231,32 @@ h3 {
    font-size: 110%;
 }
 
+
 .contact-me {
    position: relative;
    text-align: center;
 }
 
+
+
 .form {
    position: relative;
    text-align: center;
-
 }
+
 
 .hr-contact-me {
    position: relative;
    padding-bottom: 70px;
 }
 
-.contact-div {
-  margin-top: 50px;
+
+
+.initial-dest {
+   position: relative;
+}
+
+
+.americas {
+   position: relative;
 }
