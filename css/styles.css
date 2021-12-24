@@ -8,7 +8,9 @@ hr {
   border-bottom-style: dotted;
   border-color: lightgrey;
   border-width: 6px;
-  width: 5%
+  width: 5%;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 h1 {
