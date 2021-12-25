@@ -219,8 +219,8 @@ a {
 
 /* ------------about us----------- */
 .h2-about-us {
-  width: 10%;
-  margin: 60px auto;
+  text-align: center;
+  margin: 60px;
 }
 
 /*
