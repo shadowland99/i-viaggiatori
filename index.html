@@ -1,105 +1,169 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!doctype html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <title>Edgar & Cristina's Travel Site</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat&display=swap" rel="stylesheet">
+
 
   <style>
-    body {
+    .section-1 {
+      height: 300px;
       background-image: url("images/background.png");
       background-repeat: no-repeat;
-      background-size: 100% 27%;
+      background-size: 100% 100%;
     }
   </style>
 </head>
 
 <body>
-
-<!-- Profile section start -->
-  <center>
-    <table cellspacing="30">
-      <tr>
-        <td><img class="profile" src="images/paso-robles.png" alt="Edgar & Cristina's profile picture" style="width:200px;height:200px;"></td>
-        <td>
-          <h1>I Viaggiatori</h1>
-          <h3 style="color:white; margin-top:10px;"><em><strong>World Travelers</strong></em></h3>
-          <h3 style="color:white;">Sharing a love of travel from the local perspective.</h3>
-        </td>
-      </tr>
-    </table>
-  </center>
- <!-- Profile section end -->
-
-  <br>
-
-<!-- Destinations section start -->
-  <center>
-
-
-  <div class="initial-dest">
-   <h2>Destinations</h2>
-    <table cellspacing="40">
-      <tr>
-        <td><img src="images/africa1.png" alt="image for africa" style="width:100px;height:100px;"></td>
-        <td><a href="africa.html"><h3>Africa</h3></a>
-        </td>
-
-        <td><img src="images/Asia1.png" alt="image for asia" style="width:100px;height:100px;"></td>
-        <td><a href="https://www.germany.travel/en/home.html"><h3>Asia</h3></a>
-        </td>
-
-        <td><img src="images/Europe1.png" alt="image for europe" style="width:100px;height:100px;"></td>
-        <td><a href="europe.html"><h3>Europe</h3></a>
-        </td>
-       </tr>
-     </table>
-   </div>
-   </center>
-
-   <center>
-     <div class="americas">
-       <table cellspacing="40">
-        <tr>
-        <td><img src="images/NA1.png" alt="image for north america" style="width:100px;height:100px;"></td>
-        <td><a href="https://slovakia.travel/en">
-            <h3>North America</h3>
-          </a></td>
-
-       <td>
-       <img src="images/SA.png" alt="image for south america" style="width:100px;height:100px;"></td>
-        <td><a href="https://slovakia.travel/en"><h3>South America</h3></a>
-        </td>
-      </tr>
-    </table>
-    </div>
-    </center>
-<!-- Destination section end -->
-
-  <hr>
-
-<!-- About Us section start -->
-
-    <h2 class="h2-about-us">About Us</h2>
-
-
-  <div class="about-us-text">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <!-- Navbar section -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-clear">
+    <a class="navbar-brand ps-3" href="">I Viaggiatori</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav ms-auto pe-3 ps-3">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Destinations
+            </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li>
+                <a class="dropdown-item" href="europe.html">Africa</a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="europe.html">Asia</a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="europe.html">Europe</a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="europe.html">North America</a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="europe.html">South America</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">About Us</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contact me.html">Contact</a>
+        </li>
+    </ul>
   </div>
- <!-- About Us section end -->
+</nav>
 
-  <hr class="about-us-hr">
+  <!-- Profile section start -->
+  <section class="section-1">
+    <div class="container-fluid">
+      <center>
+        <table>
+          <tr>
+            <td class="pro-pic"><img class="profile" src="images/paso-robles.png" alt="Edgar & Cristina's profile picture" style="width:200px;height:200px;"></td>
+            <td class="pro-text">
+              <h1>I Viaggiatori</h1>
+              <h3 style="color:white; margin-top:10px;"><em><strong>World Travelers</strong></em></h3>
+              <h3 style="color:white;">Sharing a love of travel from the local perspective.</h3>
+            </td>
+          </tr>
+        </table>
+      </center>
+    </div>
+  </section>
+  <!-- Profile section end -->
 
-<!-- Contact Me section start -->
+  <!-- Destinations section start -->
+  <section class="section-2">
+    <div class="container-fluid">
+      <center>
+        <div>
+          <h2>Destinations</h2>
+        </div>
+
+        <div class="initial-dest">
+          <table class="my-5">
+            <tr>
+              <td><img src="images/africa1.png" alt="image for africa" style="width:100px;height:100px;"></td>
+              <td class="africa-name"><a href="africa.html">
+                  <h3>Africa</h3>
+                </a>
+              </td>
+
+              <td><img src="images/Asia1.png" alt="image for asia" style="width:100px;height:100px;"></td>
+              <td class="asia-name"><a href="https://www.germany.travel/en/home.html">
+                  <h3>Asia</h3>
+                </a>
+              </td>
+
+              <td><img src="images/Europe1.png" alt="image for europe" style="width:100px;height:100px;"></td>
+              <td class="europe-name"><a href="europe.html">
+                  <h3>Europe</h3>
+                </a>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </center>
+
+      <center>
+        <div class="americas">
+          <table cellspacing="40">
+            <tr>
+              <td><img src="images/NA1.png" alt="image for north america" style="width:100px;height:100px;"></td>
+              <td class="na-name"><a href="https://slovakia.travel/en">
+                  <h3>North America</h3>
+                </a></td>
+
+              <td>
+                <img src="images/SA.png" alt="image for south america" style="width:100px;height:100px;">
+              </td>
+              <td class="sa-name"><a href="https://slovakia.travel/en">
+                  <h3>South America</h3>
+                </a>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </center>
+    </div>
+  </section>
+  <!-- Destination section end -->
   <center>
-  <a href="contact me.html"><h3>Contact Me</h3></a>
+    <hr style="width: 15%; margin: 100px 0;">
   </center>
-<!-- Contact Me section end -->
+
+  <!-- About Us section start -->
+  <h2 class="h2-about-us">About Us</h2>
+  <div class="about-us-text">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+      irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+  <!-- About Us section end -->
+
+  <center>
+    <hr style="width: 15%; margin: 100px 0;">
+  </center>
+
+  <!-- Contact Me section start -->
+  <center>
+    <a href="contact me.html">
+      <h3>Contact</h3>
+    </a>
+  </center>
+  <!-- Contact Me section end -->
 
 </body>
+
 </html>

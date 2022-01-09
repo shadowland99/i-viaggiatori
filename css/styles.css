@@ -2,7 +2,43 @@ body {
   background-color: #E1E5EA;
 }
 
-hr {
+.section-2 {
+  margin-top: 100px;
+}
+
+.pro-pic {
+  padding-right: 30px;
+}
+
+.pro-text {
+  padding-top: 40px;
+}
+
+.africa-name {
+  padding-left: 10px;
+  padding-right: 30px;
+}
+
+.asia-name {
+  padding-left: 10px;
+  padding-right: 30px;
+}
+
+.europe-name {
+  padding-left: 10px;
+}
+
+.na-name {
+  padding-left: 10px;
+  padding-right: 30px;
+}
+
+.sa-name {
+  padding-left: 10px;
+}
+
+/*
+.hr-1 {
   padding-bottom: 50px;
   border-style: hidden;
   border-bottom-style: dotted;
@@ -12,6 +48,7 @@ hr {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+*/
 
 h1 {
   color: #C37B89;
@@ -24,6 +61,7 @@ h2 {
   color: #C37B89;
   font-family: cursive;
   font-size: 30px;
+  font-weight: bold;
 }
 
 h3, h4 {
@@ -250,6 +288,7 @@ a {
 .form {
    position: relative;
    text-align: center;
+   padding-top: 40px;
 }
 
 .hr-contact-me {
@@ -263,5 +302,5 @@ a {
 }
 
 .americas {
-   position: relative;
+  padding-top: 10px;
 }
