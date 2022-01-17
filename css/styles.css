@@ -2,8 +2,31 @@ body {
   background-color: #E1E5EA;
 }
 
+h1 {
+  color: #C37B89;
+  font-family: 'EB Garamond', sans-serif;
+  font-size: 70px;
+  margin-bottom: 1px;
+}
+
+h2 {
+  color: #C37B89;
+  font-family: cursive;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h3, h4 {
+  font-family: 'EB Garamond', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Title Section start */
 #title {
-  width: 100%; height: 350px;
+  width: 100%; height: 407px;
 }
 
 .section-1 {
@@ -15,24 +38,18 @@ body {
   height: 350px;
 }
 
-.yo {
+.pro-text {
   color: #ffff;
 }
+/* Title Section end */
 
+/* Destinations Section start */
 .section-2 {
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 .sec2-h2 {
   padding-bottom: 70px;
-}
-
-.pro-pic {
-  padding-right: 30px;
-}
-
-.pro-text {
-  padding-top: 40px;
 }
 
 .africa-name {
@@ -58,49 +75,49 @@ body {
   padding-left: 10px;
 }
 
-/*
-.hr-1 {
-  padding-bottom: 50px;
-  border-style: hidden;
-  border-bottom-style: dotted;
-  border-color: lightgrey;
-  border-width: 6px;
-  width: 5%;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-*/
-
-h1 {
-  color: #C37B89;
-  font-family: 'EB Garamond', sans-serif;
-  font-size: 70px;
-  margin-bottom: 1px;
-}
-
-h2 {
-  color: #C37B89;
-  font-family: cursive;
-  font-size: 30px;
-  font-weight: bold;
-}
-
-h3, h4 {
-  font-family: 'EB Garamond', serif;
-}
-
-a {
-  text-decoration: none;
-}
-
 .profile {
    margin-top: 50px;
  }
+/* Destinations Section end */
 
-.initial-dest {
-  position: relative;
-  margin-top: 100px;
+/* about us start */
+.h2-about-us {
+  text-align: center;
+  margin: 60px;
 }
+
+.about-us-text {
+   position: relative;
+   top: 5px;
+   padding: 0 70px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: normal;
+   font-size: 110%;
+}
+
+.about-us-hr {
+  margin: 0 auto 60px auto;
+}
+/* about us end */
+
+/* contact start */
+.contact-me {
+   position: relative;
+   text-align: center;
+}
+
+.form {
+   position: relative;
+   text-align: center;
+   padding-top: 40px;
+}
+
+.hr-contact-me {
+   position: relative;
+   padding-bottom: 70px;
+}
+/* contact end */
+
 
 /* ---------Italy div---------- */
 .italy-parent {
@@ -194,23 +211,6 @@ a {
 }
 
 
-
-
-/*
-.test {
-  position: absolute;
-  top: 25px;
-  left: 20px;
-  background-color: black;
-  color: white;
-  border: 2px solid red;
-  padding-left: 20px;
-  padding-right: 20px;
-  opacity: 0.7;
-}
-*/
-
-
 /* ------------italy.html------------ */
 .italy-guide-parent {
    position: relative;
@@ -219,7 +219,6 @@ a {
 .italy-guide-parent img {
    max-width: 100%;
 }
-
 
 .italy-heading {
    position: relative;
@@ -254,74 +253,7 @@ a {
 .milano-textarea {
    position: absolute;
    margin-top: 20px;
-   margin-left: 70px;
    font-size: 23px;
    margin-left: 70px;
    margin-right: 70px;
-}
-
-/*
-.coliseum-text-block {
-  position: absolute;
-  font-size: 180%;
-  top: 25px;
-  left: 20px;
-  background-color: lightgrey;
-  color: black;
-  padding-left: 20px;
-  padding-right: 20px;
-  opacity: 0.7;
-  border: 2px solid black;
-}
-*/
-
-
-/* ------------about us----------- */
-.h2-about-us {
-  text-align: center;
-  margin: 60px;
-}
-
-/*
-  padding-left: 20px;
-  padding-right: 20px;
-}
-*/
-
-.about-us-text {
-   position: relative;
-   top: 5px;
-   padding: 0 70px;
-   font-family: 'Montserrat', sans-serif;
-   font-weight: normal;
-   font-size: 110%;
-}
-
-.about-us-hr {
-  margin: 0 auto 60px auto;
-}
-
-.contact-me {
-   position: relative;
-   text-align: center;
-}
-
-.form {
-   position: relative;
-   text-align: center;
-   padding-top: 40px;
-}
-
-.hr-contact-me {
-   position: relative;
-   padding-bottom: 70px;
-}
-
-
-.initial-dest {
-   position: relative;
-}
-
-.americas {
-  padding-top: 10px;
 }
