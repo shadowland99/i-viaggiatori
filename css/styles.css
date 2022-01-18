@@ -84,16 +84,23 @@ a {
   padding-left: 10px;
 }
 
+.dest-imgs {
+  margin-bottom: 10px;
+}
+
+/*
 .profile {
    margin-top: 50px;
  }
+ */
+ 
 /* Destinations Section end */
 
 /* about us start */
 #about-us {
   background-color: #92A9BD;
   color: #fff;
-  padding: 5% 15% 7% 15%;
+  padding: 7% 15% 7% 15%;
 /*
   padding-left: 15%;
   padding-right: 15%
@@ -102,7 +109,7 @@ a {
 
 .h2-about-us {
   text-align: center;
-  margin: 60px;
+  margin: 0 60px 60px;
 }
 
 .about-us-text {
